@@ -1,10 +1,10 @@
 # Intelligent SOC Platform
 
-**A collaborative, three-VM security monitoring lab for practicing SOC Level 1 investigation.**
+**My SOC Level 1 portfolio project: a three-VM security monitoring lab.**
 
-This portfolio project brings together Wazuh endpoint monitoring, Suricata network alerts, Zeek connection telemetry, real-time file integrity monitoring (FIM), and VirusTotal hash lookups. It demonstrates how an analyst can review endpoint and network evidence in a central SIEM, validate what an event supports, and explain what remains uncertain.
+I contributed most of the work to building this lab with Alen. This repository is my personal portfolio presentation of the project, including the architecture, investigation workflow, results, and evidence. The system brings together Wazuh endpoint monitoring, Suricata network alerts, Zeek connection telemetry, real-time file integrity monitoring (FIM), and VirusTotal hash lookups. It demonstrates how I review endpoint and network evidence in a central SIEM, validate what an event supports, and explain what remains uncertain.
 
-> **Project attribution:** This was completed collaboratively with **Alen**. The source project and original evidence are published in [Alen’s repository](https://github.com/alen97mathew-gif/intelligent-soc-platform). My contribution was substantial and shared across the project. This portfolio copy preserves that collaborative credit and does not claim sole authorship.
+> **Credit:** I worked with **Alen** on the lab. The original project record and screenshots are from [Alen’s source repository](https://github.com/alen97mathew-gif/intelligent-soc-platform); I credit that source here. This is my portfolio repository and documents my work and investigation practice.
 
 ## What I practiced
 
@@ -80,7 +80,19 @@ No ATT&CK technique is assigned to Rule `533` from a port-state change alone. FI
 
 ## Evidence gallery
 
-The three retained Wazuh screenshots are hosted in the [original project repository](https://github.com/alen97mathew-gif/intelligent-soc-platform/tree/main/screenshots), with descriptions and limitations in its [source README](https://github.com/alen97mathew-gif/intelligent-soc-platform#evidence-gallery). They show a port-change event detail, a Rule `533` event list, and a populated Wazuh archive view. The archive image does not isolate a Victim-to-Kali shell connection. Screenshots for Rules `550`, `87103`, and `100100`, Suricata ingestion, and the Nmap/Gobuster terminal exercises were not retained in the project gallery.
+The following original screenshots are included with their source credited. They show a port-change event detail, a Rule `533` event list, and a populated Wazuh archive view. The archive image does not isolate a Victim-to-Kali shell connection. Screenshots for Rules `550`, `87103`, and `100100`, Suricata ingestion, and the Nmap/Gobuster terminal exercises were not retained in the project gallery.
+
+### Port-change event detail
+
+![Wazuh port-change event detail](screenshots/11-port-change-detail.png)
+
+### Rule 533 in Threat Hunting
+
+![Wazuh Rule 533 in Threat Hunting](screenshots/12-wazuh-port-alert.png)
+
+### Populated Wazuh archive view
+
+![Wazuh archive view](screenshots/13-archive-view.png)
 
 ## Limitations and next steps
 
@@ -102,7 +114,8 @@ Run scans, password attempts, and shell exercises only on systems you own or are
 
 - Original project and evidence: [alen97mathew-gif/intelligent-soc-platform](https://github.com/alen97mathew-gif/intelligent-soc-platform)
 - Original project author listed in source README: Alen
-- Collaboration: shared project work; this portfolio presentation does not imply sole authorship
+- My contribution: shared most of the project work
+- Collaborator and source credit: Alen; see the [original project repository](https://github.com/alen97mathew-gif/intelligent-soc-platform)
 - Source documentation finalized: 6 October 2026
 
 
