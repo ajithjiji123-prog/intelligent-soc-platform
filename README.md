@@ -106,7 +106,7 @@ Run scans, password attempts, and shell exercises only on systems you own or are
 
 ## Resume-ready summary
 
-> Collaborated on a three-VM SOC lab integrating Wazuh, Suricata, Zeek, and VirusTotal. Implemented and validated custom SSH password-guessing detection; investigated endpoint, network, FIM, and threat-intelligence events; and documented evidence boundaries, including the difference between archived telemetry and alerts.
+> Built and investigated a three-VM SOC lab integrating Wazuh, Suricata, Zeek, and VirusTotal. Implemented and validated custom SSH password-guessing detection; investigated endpoint, network, FIM, and threat-intelligence events; and documented evidence boundaries, including the difference between archived telemetry and alerts.
 
 **Skills practiced:** SOC investigation, SIEM, Wazuh, Linux, Ubuntu, Kali Linux, Suricata, Zeek, EVE JSON, Filebeat, endpoint monitoring, detection engineering, SSH authentication analysis, FIM, VirusTotal, threat-intelligence enrichment, network telemetry, MITRE ATT&CK, and evidence-based reporting.
 
