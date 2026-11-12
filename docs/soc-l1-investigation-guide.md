@@ -50,6 +50,6 @@ Do not state “malware detected” from a VirusTotal no-record response, “att
 
 ## Project evidence available
 
-The original repository retains three screenshots: a Rule `533` port-change detail, a Rule `533` Threat Hunting list, and a populated archive view. The archive screenshot’s visible rows are monitoring-server records and do not isolate the shell-related flow. Dedicated screenshots for Rules `550`, `87103`, and `100100`, Suricata ingestion, and terminal activity are not retained. See [the original evidence gallery](https://github.com/alen97mathew-gif/intelligent-soc-platform#evidence-gallery).
+This portfolio repository includes three original screenshots: a Rule `533` port-change detail, a Rule `533` Threat Hunting list, and a populated archive view. The archive screenshot’s visible rows are monitoring-server records and do not isolate the shell-related flow. Dedicated screenshots for Rules `550`, `87103`, and `100100`, Suricata ingestion, and terminal activity are not retained. The images originate from [Alen’s source repository](https://github.com/alen97mathew-gif/intelligent-soc-platform#evidence-gallery).
 
 
