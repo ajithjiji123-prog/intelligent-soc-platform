@@ -2,7 +2,7 @@
 
 ## Source
 
-This portfolio version is based on the public repository [alen97mathew-gif/intelligent-soc-platform](https://github.com/alen97mathew-gif/intelligent-soc-platform). The original README identifies Alen as the author and says the documentation was finalized on 6 October 2026. The project was collaborative; the portfolio owner describes their contribution as sharing most of the work. This copy credits Alen and does not claim sole authorship.
+This is the portfolio owner's personal presentation of the Intelligent SOC Platform lab. The project work was shared with Alen, and the owner describes their contribution as doing most of the work. The public source repository is [alen97mathew-gif/intelligent-soc-platform](https://github.com/alen97mathew-gif/intelligent-soc-platform); its README lists Alen as author and says the documentation was finalized on 6 October 2026. The screenshots below are from that source and are credited accordingly.
 
 ## What the source documents
 
@@ -23,7 +23,7 @@ The source README links three genuine screenshots in its `screenshots/` director
 2. Threat Hunting view showing Rule `533` at level 7.
 3. A populated `wazuh-archives-*` view. Visible records include monitoring-server activity; it does not isolate a Victim-to-Kali shell connection.
 
-They are linked from this portfolio README at the original repository so their source and context remain visible. This staging package does not include copied image files.
+The original PNGs are included in this portfolio repository under `screenshots/`, with filenames preserved and source attribution given in the README. Their captions describe only what is visible and retain the source project's limitations.
 
 ## Evidence not retained
 
